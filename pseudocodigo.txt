@@ -1,0 +1,64 @@
+
+1)Pseudocódigo para saber si una palabra es un palíndromo
+
+INICIO
+	palabra1, palabra2
+	En pantalla "Escriba la palabra a evaluar"
+	Guardar en palabra1
+	Cambiar palabra1 "string" a un arreglo (en donde cada letra es un espacio del arreglo)
+	Verificar cantidad de letras en la palabra (cantidad de espacios en el arreglo)
+	Reordenar arreglo (letras) de fin a inicio
+	Cambiar arreglo a string 
+	Guardar nuevo string en palabra2
+	Comparar palabra1 con palabra2
+		si palabra1 == palabra2
+		Escribir en Pantalla "Es un palíndromo"
+		sino
+		Escribir en Pantalla "No es un palíndromo"
+FIN
+
+2)Pseudocódigo para Locura Instantanea
+
+3)Pseudocódigo para saber si un número es par o impar
+
+INICIO
+	numero
+	En pantalla "Escriba el numero a evaluar"
+	Guardar en numero
+	Comparar
+		si numero%2==0
+		Escribir en pantalla "El numero es par"
+		sino
+		Escribir en pantalla "El numero es impar 
+FIN
+
+MODULO 2.1 INTRODUCCIÓN A LA ALGORITMIA
+
+1) Pseudocódigo que solicite la cantidad en millas y lo convierta a km 
+e imprima el resultado en pantalla
+
+INICIO
+	millas, km: Variables
+	MILLAAKM = 1.60934: Constante
+	"Escriba la cantidad en millas"
+	Lee y almacena cantidad en variable millas
+	Se hace la operacion km=milla * MILLAAKM
+	Escribimos "Kilometros"= km
+FIN
+
+2) Diagrama de flujo que solicite una cantidad en Yardas y lo convierta a km 
+e imprima el resultado en pantalla
+
+INICIO
+	yardas, km,cms: Variables
+	YARDAACMS = 91.4398, CMSAKM = 0.000010: Constante
+	"Escriba la cantidad en Yardas"
+	Lee y almacena cantidad en variable yardas
+	Se hace la operacion cms=yardas*YARDAACMS
+        Se hace la operacion km=cms*CMSAKM
+	Escribimos "Kilometros"= km
+FIN
+
+
+
+
