@@ -1,0 +1,30 @@
+Pseudocodigo de DFS con recursividad
+
+INICIO
+	Definimos nodo actual M
+	Definimos nodo a encontrar 
+	Creamos arreglo vacio llamado revisados
+	Creamos stack vacio de por revisar
+	
+	INICIA FUNCION DFS
+	Comparamos nodo actual con nodo a encontrar
+	Si es el mismo
+		Termina
+	Si no
+		Lo pasamos a arreglo revisados
+		Preguntamos si tiene conexiones 
+		Si tiene
+			Preguntamos sus conexiones 
+			Si ya las revisamos antes 
+				Lo ignoramos
+			Si no
+				Agregamos sus conexiones al stack
+		Si no
+			Continua 
+
+	Tomamos ultimo valor del stack como nodo actual
+	Mandamos a llamar misma funcion DFS con valor de nuevo nodo
+	IMPRIME(return) arreglo de revisados
+
+	TERMINA FUNCION DFS	
+FIN
