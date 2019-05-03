@@ -1,7 +1,7 @@
 Pseudocodigo de DFS con recursividad
 
 INICIO
-	Definimos nodo actual 
+	Definimos nodo actual M
 	Definimos nodo a encontrar 
 	Creamos arreglo vacio llamado revisados
 	Creamos stack vacio de por revisar
